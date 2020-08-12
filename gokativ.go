@@ -4,7 +4,7 @@ import "strings"
 
 func Vokativ(name string) string {
 	lname := strings.ToLower(name)
-	if IsWoman(lname) {
+	if IsFem(lname) {
 		_, LastFirst := getMatchingSuffix(lname, wfvls)
 		if LastFirst == "l" {
 			return name
@@ -34,7 +34,7 @@ func vokativWomanFirstName(n string) string {
 
 }
 
-func IsWoman(name string) bool {
+func IsFem(name string) bool {
 	lname := strings.ToLower(name)
 	_, sx := getMatchingSuffix(lname, mvws)
 	return sx == "w"

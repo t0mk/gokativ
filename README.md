@@ -22,7 +22,7 @@ func main() {
 		"Kovářová", "Kaplan", "Herůdek", "Profesor", "Doktorka",
 	}
 	for _, n := range ns {
-		fmt.Println(n, gokativ.Vokativ(n), gokativ.IsWoman(n))
+		fmt.Println(n, gokativ.Vokativ(n), gokativ.IsFem(n))
 	}
 }
 ```
