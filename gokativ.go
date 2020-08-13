@@ -51,18 +51,3 @@ func getMatchingSuffix(name string, suffices map[string]string) (string, string)
 	}
 	return "", suffices[""]
 }
-
-/*
-
-   def _get_matching_suffix(self, name, suffixes):
-       # it is important(!) to try suffixes from longest to shortest
-       for suffix_length in six.moves.xrange(len(name), 0, -1):
-           suffix = name[-suffix_length:]
-           if suffix in suffixes:
-               return (suffix, suffixes[suffix])
-       return ('', suffixes.get(''))
-
-*/
-func Ms() map[string]string {
-	return ms
-}
