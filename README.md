@@ -27,6 +27,25 @@ func main() {
 }
 ```
 
+.. vypise:
+
+```
+tomk@xps ~/gokativ/test ±master » go run main.go                           1 ↵
+Karásek Karásku false
+Bláha Bláho false
+Matějů Matějů false
+Petr Petře false
+Jana Jano true
+Tomáš Tomáši false
+Tříska Třísko false
+Kolek Kolku false
+Kovářová Kovářová true
+Kaplan Kaplane false
+Herůdek Herůdku false
+Profesor Profesore false
+Doktorka Doktorko false           <-- chyba IsFem
+```
+
 ## Credits
 
 This is almost a verbatim copy of https://github.com/Mimino666/vokativ
