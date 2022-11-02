@@ -4,6 +4,8 @@ Czech Vocative noun case in Go
 
 Generování oslovení ze jména (oslovení = 5. pád = vokativ)
 
+Pouzivane na https://www.oslovovani.cz
+
 ## Usage
 
 ```
